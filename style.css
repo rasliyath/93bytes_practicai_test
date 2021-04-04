@@ -1,0 +1,46 @@
+body{
+	background:#ddd;
+    font-family:"Raleway";
+    
+}
+.div1{
+	width: 350px;
+	margin: auto;
+    margin: 10 0 0 450px;
+    overflow: hidden;
+    padding: 75px;
+    background: #00acee;
+}
+
+h2{
+	text-align: center;
+	padding: 10px;
+}
+label{
+	color: white;
+	padding-left: 10px;
+
+}
+
+
+
+#logbutton{
+  width: 85%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  padding-right: 15px;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+    
+
+}
+.inputtext, select{
+    width: 75%%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}

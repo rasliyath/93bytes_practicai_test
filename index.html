@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+    <script>
+        function myFunction(){
+            var un=document.forms["myform"]["uname"].value;
+            var pw=document.forms["myform"]["pass"].value;
+            if(un=="student"&pw=="1234")
+              { alert("Login successfull");
+                window.location.href="newcontact.html";
+
+               }
+            else
+              {
+                alert("Invalid user name and password");
+              }
+        
+}</script>
+    
+</head>
+<body>
+    <h2>LOGIN FORM</h2>
+     <div class="div1">
+    	<form name="myform" method="post">
+    	   <label>User name:</label>
+    	   <input type="text" name="uname" class="inputtext"placeholder="User name:" required>
+    	   <br><br>
+           <label> Password   :</label>
+    	   <input type="password" name="pass" class="inputtext"placeholder="Password:"required>
+    	   <br><br>
+
+           <input type="button" name="log" id="logbutton"value="Login" onclick="myFunction()"> 
+    	   <br><br>
+        </form>
+    </div>
+</body>
+</html>
